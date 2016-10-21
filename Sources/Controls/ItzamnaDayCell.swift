@@ -21,14 +21,26 @@
  THE SOFTWARE.
  */
 
-#import <UIKit/UIKit.h>
+/// The ItzamnaDayCell class defines the attributes and
+/// behavior of the cells that appear in ItzamnaCalendarView objects.
+open class ItzamnaDayCell: UICollectionViewCell, ItzamnaReusableViewProtocol {
 
-//! Project version number for Itzamna.
-FOUNDATION_EXPORT double ItzamnaVersionNumber;
+	var view: ItzamnaDayCellView?
 
-//! Project version string for Itzamna.
-FOUNDATION_EXPORT const unsigned char ItzamnaVersionString[];
+    func updateCellView(_ cellInsetX: CGFloat, cellInsetY: CGFloat) {
+        let vFrame = self.frame.insetBy(dx: cellInsetX, dy: cellInsetY)
+        view!.frame = vFrame
+        view!.center = CGPoint(x: self.bounds.size.width * 0.5,
+                               y: self.bounds.size.height * 0.5)
+	}
 
-// In this header, you should import all the public headers of your framework using statements like #import <Itzamna/PublicHeader.h>
+	override init(frame: CGRect) {
+		super.init(frame: frame)
+	}
 
+	/// Returns an object initialized from data in a given unarchiver.
+	required public init?(coder aDecoder: NSCoder) {
+		super.init(coder: aDecoder)
+	}
 
+}

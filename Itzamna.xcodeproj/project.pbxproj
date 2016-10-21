@@ -7,11 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		702AC1F61DB239FE00DF462E /* ItzamnaDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AC1F51DB239FE00DF462E /* ItzamnaDayCell.swift */; };
+		702AC1F91DB23A0B00DF462E /* UICollectionViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AC1F71DB23A0B00DF462E /* UICollectionViewDelegates.swift */; };
+		702AC1FA1DB23A0B00DF462E /* UIScrollViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AC1F81DB23A0B00DF462E /* UIScrollViewDelegates.swift */; };
+		702AC1FD1DB23A1400DF462E /* CalendarEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AC1FB1DB23A1400DF462E /* CalendarEnums.swift */; };
+		702AC1FE1DB23A1400DF462E /* CalendarStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AC1FC1DB23A1400DF462E /* CalendarStructs.swift */; };
+		702AC2031DB23A1E00DF462E /* ItzamnaCalendarDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AC1FF1DB23A1E00DF462E /* ItzamnaCalendarDelegateProtocol.swift */; };
+		702AC2041DB23A1E00DF462E /* ItzamnaCalendarLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AC2001DB23A1E00DF462E /* ItzamnaCalendarLayoutProtocol.swift */; };
+		702AC2051DB23A1E00DF462E /* ItzamnaReusableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AC2011DB23A1E00DF462E /* ItzamnaReusableViewProtocol.swift */; };
+		702AC2061DB23A1E00DF462E /* ItzamnaCalendarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AC2021DB23A1E00DF462E /* ItzamnaCalendarProtocols.swift */; };
+		702AC20C1DB23A2700DF462E /* ItzamnaCalendarLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AC2071DB23A2700DF462E /* ItzamnaCalendarLayout.swift */; };
+		702AC20D1DB23A2700DF462E /* ItzamnaCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AC2081DB23A2700DF462E /* ItzamnaCalendarView.swift */; };
+		702AC20E1DB23A2700DF462E /* ItzamnaCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AC2091DB23A2700DF462E /* ItzamnaCollectionReusableView.swift */; };
+		702AC20F1DB23A2700DF462E /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AC20A1DB23A2700DF462E /* Views.swift */; };
+		702AC2101DB23A2700DF462E /* UserInteractionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AC20B1DB23A2700DF462E /* UserInteractionFunctions.swift */; };
+		7031F23B1DA3FF8C003A63F3 /* GlobalFunctionsAndExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7031F23A1DA3FF8C003A63F3 /* GlobalFunctionsAndExtensions.swift */; };
 		703FCF7A1D93AC6900BCE5E9 /* Itzamna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703FCF701D93AC6900BCE5E9 /* Itzamna.framework */; };
 		703FCF7F1D93AC6900BCE5E9 /* ItzamnaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703FCF7E1D93AC6900BCE5E9 /* ItzamnaTests.swift */; };
 		703FCF811D93AC6900BCE5E9 /* Itzamna.h in Headers */ = {isa = PBXBuildFile; fileRef = 703FCF731D93AC6900BCE5E9 /* Itzamna.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7051020C1D9F02730022872F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7051020A1D9F02730022872F /* LICENSE */; };
-		7051020D1D9F02730022872F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7051020B1D9F02730022872F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +39,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		702AC1F51DB239FE00DF462E /* ItzamnaDayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItzamnaDayCell.swift; sourceTree = "<group>"; };
+		702AC1F71DB23A0B00DF462E /* UICollectionViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewDelegates.swift; sourceTree = "<group>"; };
+		702AC1F81DB23A0B00DF462E /* UIScrollViewDelegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollViewDelegates.swift; sourceTree = "<group>"; };
+		702AC1FB1DB23A1400DF462E /* CalendarEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarEnums.swift; sourceTree = "<group>"; };
+		702AC1FC1DB23A1400DF462E /* CalendarStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarStructs.swift; sourceTree = "<group>"; };
+		702AC1FF1DB23A1E00DF462E /* ItzamnaCalendarDelegateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItzamnaCalendarDelegateProtocol.swift; sourceTree = "<group>"; };
+		702AC2001DB23A1E00DF462E /* ItzamnaCalendarLayoutProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItzamnaCalendarLayoutProtocol.swift; sourceTree = "<group>"; };
+		702AC2011DB23A1E00DF462E /* ItzamnaReusableViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItzamnaReusableViewProtocol.swift; sourceTree = "<group>"; };
+		702AC2021DB23A1E00DF462E /* ItzamnaCalendarProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItzamnaCalendarProtocols.swift; sourceTree = "<group>"; };
+		702AC2071DB23A2700DF462E /* ItzamnaCalendarLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItzamnaCalendarLayout.swift; sourceTree = "<group>"; };
+		702AC2081DB23A2700DF462E /* ItzamnaCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItzamnaCalendarView.swift; sourceTree = "<group>"; };
+		702AC2091DB23A2700DF462E /* ItzamnaCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItzamnaCollectionReusableView.swift; sourceTree = "<group>"; };
+		702AC20A1DB23A2700DF462E /* Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		702AC20B1DB23A2700DF462E /* UserInteractionFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInteractionFunctions.swift; sourceTree = "<group>"; };
+		7031F23A1DA3FF8C003A63F3 /* GlobalFunctionsAndExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctionsAndExtensions.swift; sourceTree = "<group>"; };
 		703FCF701D93AC6900BCE5E9 /* Itzamna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Itzamna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		703FCF731D93AC6900BCE5E9 /* Itzamna.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Itzamna.h; sourceTree = "<group>"; };
 		703FCF741D93AC6900BCE5E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +83,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		702AC1F01DB237BB00DF462E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				702AC2071DB23A2700DF462E /* ItzamnaCalendarLayout.swift */,
+				702AC2081DB23A2700DF462E /* ItzamnaCalendarView.swift */,
+				702AC2091DB23A2700DF462E /* ItzamnaCollectionReusableView.swift */,
+				702AC20A1DB23A2700DF462E /* Views.swift */,
+				702AC20B1DB23A2700DF462E /* UserInteractionFunctions.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		702AC1F11DB237C400DF462E /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				702AC1F71DB23A0B00DF462E /* UICollectionViewDelegates.swift */,
+				702AC1F81DB23A0B00DF462E /* UIScrollViewDelegates.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		702AC1F21DB237CB00DF462E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				702AC1FF1DB23A1E00DF462E /* ItzamnaCalendarDelegateProtocol.swift */,
+				702AC2001DB23A1E00DF462E /* ItzamnaCalendarLayoutProtocol.swift */,
+				702AC2011DB23A1E00DF462E /* ItzamnaReusableViewProtocol.swift */,
+				702AC2021DB23A1E00DF462E /* ItzamnaCalendarProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		702AC1F31DB237D500DF462E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				702AC1FB1DB23A1400DF462E /* CalendarEnums.swift */,
+				702AC1FC1DB23A1400DF462E /* CalendarStructs.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		702AC1F41DB239C200DF462E /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				702AC1F51DB239FE00DF462E /* ItzamnaDayCell.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
 		703FCF661D93AC6900BCE5E9 = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +156,13 @@
 		703FCF721D93AC6900BCE5E9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				702AC1F41DB239C200DF462E /* Controls */,
+				702AC1F11DB237C400DF462E /* Delegates */,
+				702AC1F31DB237D500DF462E /* Models */,
+				702AC1F21DB237CB00DF462E /* Protocols */,
+				702AC1F01DB237BB00DF462E /* Views */,
 				703FCF731D93AC6900BCE5E9 /* Itzamna.h */,
+				7031F23A1DA3FF8C003A63F3 /* GlobalFunctionsAndExtensions.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -212,7 +296,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7051020D1D9F02730022872F /* README.md in Sources */,
+				702AC1FA1DB23A0B00DF462E /* UIScrollViewDelegates.swift in Sources */,
+				702AC2101DB23A2700DF462E /* UserInteractionFunctions.swift in Sources */,
+				7031F23B1DA3FF8C003A63F3 /* GlobalFunctionsAndExtensions.swift in Sources */,
+				702AC20F1DB23A2700DF462E /* Views.swift in Sources */,
+				702AC2051DB23A1E00DF462E /* ItzamnaReusableViewProtocol.swift in Sources */,
+				702AC1F91DB23A0B00DF462E /* UICollectionViewDelegates.swift in Sources */,
+				702AC20E1DB23A2700DF462E /* ItzamnaCollectionReusableView.swift in Sources */,
+				702AC1FD1DB23A1400DF462E /* CalendarEnums.swift in Sources */,
+				702AC1FE1DB23A1400DF462E /* CalendarStructs.swift in Sources */,
+				702AC2061DB23A1E00DF462E /* ItzamnaCalendarProtocols.swift in Sources */,
+				702AC1F61DB239FE00DF462E /* ItzamnaDayCell.swift in Sources */,
+				702AC2041DB23A1E00DF462E /* ItzamnaCalendarLayoutProtocol.swift in Sources */,
+				702AC20C1DB23A2700DF462E /* ItzamnaCalendarLayout.swift in Sources */,
+				702AC20D1DB23A2700DF462E /* ItzamnaCalendarView.swift in Sources */,
+				702AC2031DB23A1E00DF462E /* ItzamnaCalendarDelegateProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +473,7 @@
 		703FCF881D93AC6900BCE5E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ItzamnaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = studio.omnijar.ItzamnaTests;
@@ -386,6 +485,7 @@
 		703FCF891D93AC6900BCE5E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ItzamnaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = studio.omnijar.ItzamnaTests;

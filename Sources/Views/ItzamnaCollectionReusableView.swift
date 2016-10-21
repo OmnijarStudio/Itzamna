@@ -21,14 +21,24 @@
  THE SOFTWARE.
  */
 
-#import <UIKit/UIKit.h>
+/// The header view class of the calendar
+open class ItzamnaCollectionReusableView: UICollectionReusableView,
+                                          ItzamnaReusableViewProtocol {
+    var view: ItzamnaHeaderView?
 
-//! Project version number for Itzamna.
-FOUNDATION_EXPORT double ItzamnaVersionNumber;
+    func update() {
+        view!.frame = self.frame
+        view!.center = CGPoint(x: self.bounds.size.width * 0.5,
+                               y: self.bounds.size.height * 0.5)
+    }
 
-//! Project version string for Itzamna.
-FOUNDATION_EXPORT const unsigned char ItzamnaVersionString[];
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
 
-// In this header, you should import all the public headers of your framework using statements like #import <Itzamna/PublicHeader.h>
-
-
+    /// Returns an object initialized from data in a given unarchiver.
+    // self, initialized using the data in decoder.
+    required public init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+}
